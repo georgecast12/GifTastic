@@ -1,0 +1,26 @@
+button {
+  margin: 5px;
+}
+
+body {
+  background: url("../images/Sports.png");
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+
+button {
+  align-content: center;
+}
+
+label,
+p {
+  color: darkcyan;
+}
+
+.jumbotron {
+  background-color: darkcyan;
+}

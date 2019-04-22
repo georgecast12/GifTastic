@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>GifTastic!</title>
+
+    <!-- Bootstrap Link -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Google Docs Link -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Link -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/css/style.css"
+    />
+
+    <!--Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="jumbotron jumbotron-fluid">SPORTS BLOOPERS!</h1>
+
+      <!-- Buttons will get dumped here -->
+      <div id="buttons-view"></div>
+
+      <form id="topic-form">
+        <label for="topic-input">New Topic:</label>
+        <input type="text" id="topic-input" />
+
+        <!-- Button triggers new topic to be added -->
+        <input
+          id="add-topic"
+          class="btn-info"
+          type="submit"
+          value="Create Button"
+        />
+      </form>
+
+      <!-- GIFs Appear here -->
+      <div class="col-md-12" id="gifs-appear-here"></div>
+    </div>
+  </body>
+
+  <!-- Jquery Link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- ajax Link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- JS Link -->
+  <script type="text/javascript" src="assets/js/gif.js"></script>
+</html>
