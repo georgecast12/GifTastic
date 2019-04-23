@@ -1,5 +1,6 @@
 button {
   margin: 5px;
+  margin-left: 5%;
 }
 
 body {
@@ -16,11 +17,17 @@ button {
   align-content: center;
 }
 
-label,
-p {
+label {
   color: darkcyan;
+  margin-top: 5%;
+  margin-left: 55%;
 }
 
 .jumbotron {
   background-color: darkcyan;
+}
+
+p {
+  color: darkcyan;
+  margin-left: 30%;
 }
